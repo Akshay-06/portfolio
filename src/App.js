@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, Navigate, HashRouter } from 'react-router-dom';
 
 import { ThemeContext } from './contexts/ThemeContext';
 import { Main, ProjectPage } from './pages'
@@ -18,7 +18,7 @@ function App() {
 
   return (
     <div className="app">
-      <Router>
+      <HashRouter>
         <ScrollToTop/>
         <Routes>
           <Route path="/" element={<Main />} />
@@ -28,7 +28,7 @@ function App() {
           {/* Redirects */}
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
-      </Router>
+      </HashRouter>
       <BackToTop />
     </div>
   );
