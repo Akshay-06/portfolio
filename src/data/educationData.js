@@ -10,14 +10,14 @@ export const educationData = [
         id: 2,
         institution: 'KLEF Deemed to be University',
         course: 'Bachelor of Technology in Computer Science',
-        startYear: 'Jun 2016',
-        endYear: 'May 2020'
+        startYear: 'Jun 2015',
+        endYear: 'May 2019'
     },
     {
         id: 3,
         institution: 'Sri Chaitanya Junior College',
         course: 'MPC',
-        startYear: 'Jul 2014',
-        endYear: 'May 2016'
+        startYear: 'Jul 2013',
+        endYear: 'May 2015'
     },
 ]

@@ -14,7 +14,9 @@ import {
     FaGithub,
     FaYoutube,
     FaBlogger,
+    FaHackerrank,
 } from 'react-icons/fa';
+import { SiLeetcode } from 'react-icons/si';
 
 function Landing() {
     const { theme, drawerOpen } = useContext(ThemeContext);
@@ -101,29 +103,29 @@ function Landing() {
                                 />
                             </a>
                         )}
-                        {socialsData.twitter && (
+                        {socialsData.leetcode && (
                             <a
-                                href={socialsData.twitter}
+                                href={socialsData.leetcode}
                                 target='_blank'
                                 rel='noreferrer'
                             >
-                                <FaTwitter
+                                <SiLeetcode
                                     className='landing--social'
                                     style={{ color: theme.secondary }}
-                                    aria-label='Twitter'
+                                    aria-label='LeetCode'
                                 />
                             </a>
                         )}
-                        {socialsData.youtube && (
+                        {socialsData.hackerrank && (
                             <a
-                                href={socialsData.youtube}
+                                href={socialsData.hackerrank}
                                 target='_blank'
                                 rel='noreferrer'
                             >
-                                <FaYoutube
+                                <FaHackerrank
                                     className='landing--social'
                                     style={{ color: theme.secondary }}
-                                    aria-label='YouTube'
+                                    aria-label='HackerRank'
                                 />
                             </a>
                         )}

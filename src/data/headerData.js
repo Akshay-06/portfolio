@@ -1,5 +1,5 @@
 import resume from '../assets/pdf/Resume.pdf'
-import pic from "../assets/png/IMG_0927.png"
+import pic from "../assets/png/IMG_0927.jpg"
 
 export const headerData = {
     name: 'Akshay Reddy Narra',
