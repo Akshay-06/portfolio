@@ -1,6 +1,6 @@
 export const aboutData = {
     title: "Who I am",
-    description1: "My name's Akshay. I'm a Java Full Stack Developer",
-    description2: "I am a full stack Java developer with over 4 years of experience in building robust and scalable applications, leveraging my expertise in Spring Framework, Microservices, RESTful APIs, front-end development using React.js and Vue.js, database management with SQL and NoSQL, and Agile methodologies, while proficiently utilizing AWS, driving digital transformation initiatives, and collaborating with cross-functional teams to deliver high-quality software solutions.",
+    description1: "My name's Akshay. I'm a Software Engineer based in USA",
+    description2: "I'm an experienced Software Engineer specializing in RESTful microservices, web services, enterprise applications, web applications and integrations using Spring Framework, database management, full stack development and cloud solutions. Proficient in Java, MERN stack, AWS, SQL, and NoSQL databases. A collaborative team player with a strong background in Agile methodologies, skilled in problem-solving, and dedicated to continuous learning and professional growth.",
     image: 2
 }

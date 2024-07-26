@@ -10,8 +10,8 @@ export const educationData = [
         id: 2,
         institution: 'KLEF Deemed to be University',
         course: 'Bachelor of Technology in Computer Science',
-        startYear: 'Jun 2015',
-        endYear: 'May 2019'
+        startYear: 'Jun 2016',
+        endYear: 'May 2020'
     },
     {
         id: 3,
